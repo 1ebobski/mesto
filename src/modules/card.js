@@ -1,4 +1,4 @@
-import {root} from './variables.js'
+import { root } from "./variables.js";
 
 export default class Card {
   constructor(name, link) {
@@ -57,7 +57,7 @@ export default class Card {
       overlay.classList.add("overlay");
       overlay.innerHTML = `
         <div class="overlay__content">
-          <img src="./images/close.svg" alt="" class="overlay__close" />
+          <button class="overlay__close"></button>
           <img class="overlay__image" alt="Красивая картинка" />
         </div>
       `;

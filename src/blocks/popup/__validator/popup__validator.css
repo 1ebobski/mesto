@@ -1,0 +1,9 @@
+@import url(./_first/popup__validator_first.css);
+@import url(./_second/popup__validator_second.css);
+.popup__validator {
+    color: #f00;
+    font-size: 12px;
+    position: absolute;
+    margin: 0;
+    left: 42px;
+}

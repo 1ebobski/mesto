@@ -1,0 +1,5 @@
+.overlay__content {
+    position: relative;
+    max-width: 80vw;
+    max-height: 80vh;
+}

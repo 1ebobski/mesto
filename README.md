@@ -1,6 +1,6 @@
 # mesto
 
-This is a final project I did during Yandex.Praktikum front-end course I took. This project in particular is dedicated to 3 topics:
+This is a v0.1.0 release of final project I did during Yandex.Praktikum front-end course. This project in particular is dedicated to 3 topics:
 
 1. Mudules in JS
 2. Webpack

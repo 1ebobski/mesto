@@ -1,7 +1,6 @@
 .overlay__close {
   background: url(../../../images/close.svg) center no-repeat;
   background-color: white;
-  /* border: none; */
   width: 25px;
   height: 25px;
   position: absolute;

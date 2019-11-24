@@ -14,7 +14,7 @@ module.exports = {
   entry: { main: "./src/index.js" },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name].js"
+    filename: "[name].[chunkhash].js"
   },
   devServer: {
     contentBase: path.join(__dirname, "src")
@@ -54,7 +54,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "style.css"
+      filename: "style.[contenthash].css"
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,

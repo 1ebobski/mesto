@@ -16,17 +16,9 @@ const username = document.querySelector(".user-info__name");
 const about = document.querySelector(".user-info__job");
 
 const placesContainer = document.querySelector(".places-list");
-// const popupNewPlace = document.querySelector(".popup_new-place");
-// const popupEditProfile = document.querySelector(".popup_edit-profile");
 
 const editButton = document.querySelector(".user-info__edit-button");
 const addButton = document.querySelector(".user-info__add-button");
-
-// const saveButton = document.querySelector(".popup__button_edit");
-// const submitButton = document.querySelector(".popup__button_add");
-
-// const placeForm = document.forms.new;
-// const userForm = document.forms.user;
 
 const userPhoto = document.querySelector(".user-info__photo");
 
